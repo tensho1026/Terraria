@@ -209,7 +209,7 @@ function AuthForm({ mode }: { mode: "login" | "register" }) {
             className="bg-emerald-50/80 border-emerald-700/40"
           />
         </div>
-        <PixelButton className="w-full">
+        <PixelButton className="w-full mx-auto">
           {mode === "login" ? "ログイン" : "アカウント作成"}
         </PixelButton>
       </form>
